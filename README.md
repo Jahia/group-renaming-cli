@@ -48,7 +48,7 @@ Build the project using Maven:
 ```sh
 mvn clean install
 ```
-Deploy the built bundle to your Jahia instance via the module managemnet UI.
+Deploy the built bundle to your Jahia instance via the module management UI.
 
 ### Deploy on Docker
 Deploy the built bundle to your Jahia instance with Docker:

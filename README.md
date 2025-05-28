@@ -42,6 +42,21 @@ This will rename the `editors` group to `senior-editors` defined at the server l
 - Karaf shell access
 - Appropriate permissions to manage groups and ACLs
 
+## How to deploy
+Build the project using Maven:
+
+```sh
+mvn clean install
+```
+Deploy the built bundle to your Jahia instance via the module managemnet UI.
+
+### Deploy on Docker
+Deploy the built bundle to your Jahia instance with Docker:
+
+```sh
+mvn clean install jahia:deploy -Djahia.deploy.targetContainerName="jahia"
+```
+
 ## License
 
 See [LICENSE](./LICENSE) for details.
